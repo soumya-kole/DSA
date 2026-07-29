@@ -18,7 +18,7 @@ Package management is done exclusively with `uv` (not pip/poetry). Python versio
 
 Each problem folder is named `<zero-padded-number>-<kebab-case-title>` (e.g. `0252-meeting-rooms`) and contains:
 
-- `description.md` — the problem statement, examples, and constraints (frontmatter + markdown, mirrors the source site's format)
+- `description.md` — the problem statement, examples, and constraints (frontmatter + markdown, mirrors the source site's format, excluding `comments` and `edit_url` frontmatter fields)
 - `solutions.md` — one or more approaches with an explanation and time/space complexity for each, including a code snippet
 - `solution.py` — the LeetCode-style solution:
   - A `Solution` class with a method matching LeetCode's exact signature (left unimplemented when scaffolding a new problem, filled in once solved)
