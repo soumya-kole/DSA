@@ -30,5 +30,6 @@ uv run 0252-meeting-rooms/solution.py
 
 | # | Title | Difficulty |
 |---|-------|------------|
+| 163 | [Missing Ranges](0163-missing-ranges/description.md) | Easy |
 | 252 | [Meeting Rooms](0252-meeting-rooms/description.md) | Easy |
 | 253 | [Meeting Rooms II](0253-meeting-rooms-ii/description.md) | Medium |
