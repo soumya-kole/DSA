@@ -20,9 +20,11 @@ Each problem folder is named `<zero-padded-number>-<kebab-case-title>` (e.g. `02
 
 - `description.md` — the problem statement, examples, and constraints (frontmatter + markdown, mirrors the source site's format, excluding `comments` and `edit_url` frontmatter fields)
 - `solutions.md` — one or more approaches with an explanation and time/space complexity for each, including a code snippet
-- `solution.py` — the LeetCode-style solution:
-  - A `Solution` class with a method matching LeetCode's exact signature (left unimplemented when scaffolding a new problem, filled in once solved)
-  - An `if __name__ == "__main__":` block with a `test_cases` list of `(input, expected_output)` tuples
+- `solution.py` — the LeetCode-style skeleton for practicing:
+  - A `Solution` class with a method matching LeetCode's exact signature (a class matching LeetCode's design template for design problems), with all bodies left as `pass`
+  - An `if __name__ == "__main__":` block with a `test_cases` list of `(input, expected_output)` tuples (for design problems: `(operations, arguments, expected_outputs)` tuples replayed against a fresh instance per case)
   - The test loop prints a `PASS`/`FAIL` line per case (showing input, expected, and actual), followed by a final summary line: `f"{passed}/{len(test_cases)} test cases passed"`
 
-When scaffolding a new problem, follow this exact structure so `solution.py` is runnable standalone via `uv run` immediately, with the method body left empty for the solution to be filled in later. Also add a row for it to the problems table in `README.md`.
+When scaffolding a new problem, follow this exact structure so `solution.py` is runnable standalone via `uv run` immediately. Also add a row for it to the problems table in `README.md`.
+
+IMPORTANT: `solution.py` is checked in as a skeleton only — the working code lives in `solutions.md`. When adding a solved problem, first fill in `solution.py` and verify all test cases pass via `uv run`, then revert the class to the empty skeleton (bodies as `pass`, test harness kept intact) before committing.

@@ -10,7 +10,7 @@ Each problem lives in its own folder, named `<zero-padded-number>-<kebab-case-ti
 
 - `description.md` — the problem statement, examples, and constraints
 - `solutions.md` — one or more approaches, each with an explanation and time/space complexity
-- `solution.py` — a `Solution` class with the LeetCode-style method signature, plus a `__main__` block that runs a set of test cases and prints a `PASS`/`FAIL` result for each, followed by a summary count
+- `solution.py` — a skeleton with the LeetCode-style class/method signature (bodies left empty for practice; the full solutions are in `solutions.md`), plus a `__main__` block that runs a set of test cases and prints a `PASS`/`FAIL` result for each, followed by a summary count
 
 ## Usage
 
@@ -33,3 +33,5 @@ uv run 0252-meeting-rooms/solution.py
 | 163 | [Missing Ranges](0163-missing-ranges/description.md) | Easy |
 | 252 | [Meeting Rooms](0252-meeting-rooms/description.md) | Easy |
 | 253 | [Meeting Rooms II](0253-meeting-rooms-ii/description.md) | Medium |
+| 703 | [Kth Largest Element in a Stream](0703-kth-largest-element-in-a-stream/description.md) | Easy |
+| 2336 | [Smallest Number in Infinite Set](2336-smallest-number-in-infinite-set/description.md) | Medium |
