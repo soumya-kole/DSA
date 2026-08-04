@@ -1,12 +1,16 @@
 # DSA
 
-A collection of LeetCode-style problems and solutions in Python, managed with [uv](https://docs.astral.sh/uv/).
+A collection of LeetCode-style problems and solutions in Python, plus math concept notes, managed with [uv](https://docs.astral.sh/uv/).
 
 This focuses on problems locked behind LeetCode's "Subscribe to unlock" paywall (premium-only problems), along with other interesting problems not available on LeetCode itself.
 
 ## Structure
 
-Each problem lives in its own folder, named `<zero-padded-number>-<kebab-case-title>` (e.g. `0252-meeting-rooms`), containing:
+- `Problems/LeetCode/` — LeetCode problems
+- `Problems/Other/` — non-LeetCode problems, following the same per-problem structure
+- `Math/` — markdown notes on math concepts
+
+Each problem lives in its own folder, named `<zero-padded-number>-<kebab-case-title>` (e.g. `Problems/LeetCode/0252-meeting-rooms`), containing:
 
 - `description.md` — the problem statement, examples, and constraints
 - `solutions.md` — one or more approaches, each with an explanation and time/space complexity
@@ -17,21 +21,31 @@ Each problem lives in its own folder, named `<zero-padded-number>-<kebab-case-ti
 Run a problem's solution against its test cases:
 
 ```sh
-uv run <folder>/solution.py
+uv run <path-to-problem>/solution.py
 ```
 
 For example:
 
 ```sh
-uv run 0252-meeting-rooms/solution.py
+uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 ```
 
 ## Problems
 
+### LeetCode
+
 | # | Title | Difficulty |
 |---|-------|------------|
-| 163 | [Missing Ranges](0163-missing-ranges/description.md) | Easy |
-| 252 | [Meeting Rooms](0252-meeting-rooms/description.md) | Easy |
-| 253 | [Meeting Rooms II](0253-meeting-rooms-ii/description.md) | Medium |
-| 703 | [Kth Largest Element in a Stream](0703-kth-largest-element-in-a-stream/description.md) | Easy |
-| 2336 | [Smallest Number in Infinite Set](2336-smallest-number-in-infinite-set/description.md) | Medium |
+| 163 | [Missing Ranges](Problems/LeetCode/0163-missing-ranges/description.md) | Easy |
+| 252 | [Meeting Rooms](Problems/LeetCode/0252-meeting-rooms/description.md) | Easy |
+| 253 | [Meeting Rooms II](Problems/LeetCode/0253-meeting-rooms-ii/description.md) | Medium |
+| 703 | [Kth Largest Element in a Stream](Problems/LeetCode/0703-kth-largest-element-in-a-stream/description.md) | Easy |
+| 2336 | [Smallest Number in Infinite Set](Problems/LeetCode/2336-smallest-number-in-infinite-set/description.md) | Medium |
+
+### Other
+
+_None yet._
+
+## Math
+
+_None yet._
