@@ -37,8 +37,10 @@ uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 | # | Title | Difficulty |
 |---|-------|------------|
 | 163 | [Missing Ranges](Problems/LeetCode/0163-missing-ranges/description.md) | Easy |
+| 215 | [Kth Largest Element in an Array](Problems/LeetCode/0215-kth-largest-element-in-an-array/description.md) | Medium |
 | 252 | [Meeting Rooms](Problems/LeetCode/0252-meeting-rooms/description.md) | Easy |
 | 253 | [Meeting Rooms II](Problems/LeetCode/0253-meeting-rooms-ii/description.md) | Medium |
+| 378 | [Kth Smallest Element in a Sorted Matrix](Problems/LeetCode/0378-kth-smallest-element-in-a-sorted-matrix/description.md) | Medium |
 | 703 | [Kth Largest Element in a Stream](Problems/LeetCode/0703-kth-largest-element-in-a-stream/description.md) | Easy |
 | 2336 | [Smallest Number in Infinite Set](Problems/LeetCode/2336-smallest-number-in-infinite-set/description.md) | Medium |
 
@@ -48,4 +50,4 @@ _None yet._
 
 ## Math
 
-_None yet._
+- [Sequences & Series](Math/sequences-and-series.md)
