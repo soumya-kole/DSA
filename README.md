@@ -36,6 +36,7 @@ uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 
 | # | Title | Difficulty |
 |---|-------|------------|
+| 11 | [Container With Most Water](Problems/LeetCode/0011-container-with-most-water/description.md) | Medium |
 | 163 | [Missing Ranges](Problems/LeetCode/0163-missing-ranges/description.md) | Easy |
 | 215 | [Kth Largest Element in an Array](Problems/LeetCode/0215-kth-largest-element-in-an-array/description.md) | Medium |
 | 252 | [Meeting Rooms](Problems/LeetCode/0252-meeting-rooms/description.md) | Easy |
@@ -51,3 +52,4 @@ _None yet._
 ## Math
 
 - [Sequences & Series](Math/sequences-and-series.md)
+- [Combinations & Permutations](Math/combinations-and-permutations.md)
