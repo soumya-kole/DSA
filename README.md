@@ -45,6 +45,7 @@ uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 | 408 | [Valid Word Abbreviation](Problems/LeetCode/0408-valid-word-abbreviation/description.md) | Easy |
 | 703 | [Kth Largest Element in a Stream](Problems/LeetCode/0703-kth-largest-element-in-a-stream/description.md) | Easy |
 | 772 | [Basic Calculator III](Problems/LeetCode/0772-basic-calculator-iii/description.md) | Hard |
+| 830 | [Positions of Large Groups](Problems/LeetCode/0830-positions-of-large-groups/description.md) | Easy |
 | 2336 | [Smallest Number in Infinite Set](Problems/LeetCode/2336-smallest-number-in-infinite-set/description.md) | Medium |
 | 2645 | [Minimum Additions to Make Valid String](Problems/LeetCode/2645-minimum-additions-to-make-valid-string/description.md) | Medium |
 | 3737 | [Count Subarrays With Majority Element I](Problems/LeetCode/3737-count-subarrays-with-majority-element-i/description.md) | Medium |
