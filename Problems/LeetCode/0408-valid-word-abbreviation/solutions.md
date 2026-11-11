@@ -9,7 +9,7 @@ Walk `word` and `abbr` simultaneously with pointers `i` and `j`. At each step, e
 
 The loop stops when either string is exhausted. The final check `i == len(word) and j == len(abbr)` confirms both strings were fully consumed in lockstep — if `word` still has leftover letters, or `abbr` has an unconsumed trailing digit run, the match is invalid.
 
-**Time complexity:** $O(m + n)$, where $m$ and $n$ are the lengths of `word` and `abbr` — each pointer only moves forward, and the inner digit-run loop never revisits a character already advanced past.
+**Time complexity:** $O(n)$, where $n$ is the length of `abbr` — every outer-loop pass advances `j` by at least one, either directly in the literal-match branch or through the inner digit-run loop (which runs at least once whenever it's entered), so the loop can execute at most `n` times total. The length of `word`, $m$, doesn't add to this: `i += num` is a single O(1) jump regardless of how large `num` is, never a loop over `word`'s characters.
 
 **Space complexity:** $O(1)$ — only the two pointers and the digit accumulator `num` are kept.
 

@@ -37,9 +37,12 @@ uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 | # | Title | Difficulty |
 |---|-------|------------|
 | 11 | [Container With Most Water](Problems/LeetCode/0011-container-with-most-water/description.md) | Medium |
+| 39 | [Combination Sum](Problems/LeetCode/0039-combination-sum/description.md) | Medium |
+| 40 | [Combination Sum II](Problems/LeetCode/0040-combination-sum-ii/description.md) | Medium |
 | 84 | [Largest Rectangle in Histogram](Problems/LeetCode/0084-largest-rectangle-in-histogram/description.md) | Hard |
 | 163 | [Missing Ranges](Problems/LeetCode/0163-missing-ranges/description.md) | Easy |
 | 215 | [Kth Largest Element in an Array](Problems/LeetCode/0215-kth-largest-element-in-an-array/description.md) | Medium |
+| 216 | [Combination Sum III](Problems/LeetCode/0216-combination-sum-iii/description.md) | Medium |
 | 252 | [Meeting Rooms](Problems/LeetCode/0252-meeting-rooms/description.md) | Easy |
 | 253 | [Meeting Rooms II](Problems/LeetCode/0253-meeting-rooms-ii/description.md) | Medium |
 | 286 | [Walls and Gates](Problems/LeetCode/0286-walls-and-gates/description.md) | Medium |
@@ -49,6 +52,7 @@ uv run Problems/LeetCode/0252-meeting-rooms/solution.py
 | 703 | [Kth Largest Element in a Stream](Problems/LeetCode/0703-kth-largest-element-in-a-stream/description.md) | Easy |
 | 772 | [Basic Calculator III](Problems/LeetCode/0772-basic-calculator-iii/description.md) | Hard |
 | 830 | [Positions of Large Groups](Problems/LeetCode/0830-positions-of-large-groups/description.md) | Easy |
+| 1152 | [Analyze User Website Visit Pattern](Problems/LeetCode/1152-analyze-user-website-visit-pattern/description.md) | Medium |
 | 2336 | [Smallest Number in Infinite Set](Problems/LeetCode/2336-smallest-number-in-infinite-set/description.md) | Medium |
 | 2645 | [Minimum Additions to Make Valid String](Problems/LeetCode/2645-minimum-additions-to-make-valid-string/description.md) | Medium |
 | 3737 | [Count Subarrays With Majority Element I](Problems/LeetCode/3737-count-subarrays-with-majority-element-i/description.md) | Medium |
